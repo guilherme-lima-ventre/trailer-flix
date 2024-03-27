@@ -4,11 +4,11 @@ function Header() {
     return (
         <> 
         <header className={styles.header}>
-            <span className={styles.title}>Guilherme Lima Ventre</span>
+            <span className={styles.title}>Guimovies</span>
             <nav className={styles.navigation}>
-                <a href="#">Página Inicial</a>
-                <a href="#">Sobre Mim</a>
-                <a href="#">Minha Experiência</a>
+                <a href="#">Home</a>
+                <a href="#">Watch</a>
+                <a href="#">Profile</a>
             </nav>
         </header>
         </>

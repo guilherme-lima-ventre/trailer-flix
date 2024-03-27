@@ -1,37 +1,34 @@
 .header {
-    --font-family: 'Times New Roman';
-    --primary-color: rgb(233, 232, 232);
-    --secondary-color: rgb(74, 106, 196);
+    --font-family: Andalé Mono, monospace;
+    --primary-color: rgb(0, 0, 0);
+    --secundary-color: rgb(149, 1, 1);
+    --text-primary-color: rgb(149, 1, 1);
+    --text-secundary-color: rgb(255, 255, 255);
 
     position: fixed;
     top: 0;
     width: 100%;
-    height: 5%;
+    height: 70px;
 
     background-color: var(--primary-color);
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secundary-color);
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-
-    nav {
-        margin-right: 32px;
-    }
+    justify-content: space-around;
     
     .title {
         font-size: 32px;
         font-weight: 900;
         font-family: var(--font-family);
-        color: var(--secondary-color);
+        color: var(--text-primary-color);
     }
 
     .navigation a {
         text-decoration: none;
-        color: var(--secondary-color);
+        color: var(--text-secundary-color);
 
-        padding-inline: 8px;
+        padding-inline: 12px;
 
         font-size: 24px;
         font-weight: 500;

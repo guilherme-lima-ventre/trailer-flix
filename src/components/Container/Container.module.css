@@ -1,0 +1,15 @@
+.container {
+    --font-family: Andalé Mono, monospace;
+    --primary-color: rgb(43, 43, 43);
+    --secundary-color: rgb(149, 1, 1);
+    --text-primary-color: rgb(149, 1, 1);
+    --text-secundary-color: rgb(255, 255, 255);
+
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-block: 8px;
+    
+    color: var(--text-secundary-color);
+    text-align: center;
+    
+}
