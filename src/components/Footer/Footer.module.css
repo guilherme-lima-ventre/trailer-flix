@@ -1,5 +1,4 @@
 .footer {
-    --font-family: Andalé Mono, monospace;
     --primary-color: rgb(0, 0, 0);
     --secundary-color: rgb(149, 1, 1);
     --text-primary-color: rgb(149, 1, 1);
@@ -7,15 +6,18 @@
 
     position: absolute;
     width: 100%;
-    height: 30px;
+    height: 60px;
 
     background-color: var(--primary-color);
     border-top: 3px solid var(--secundary-color);
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-block: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
 
     .app {
         display: flex;
@@ -30,11 +32,13 @@
     .name {
         font-size: 20px;
         font-weight: 900;
+        align-self: center;
     }
 
     .info {
         font-size: 16px;
         font-weight: 500;
+        align-self: center;
     }
 
 }

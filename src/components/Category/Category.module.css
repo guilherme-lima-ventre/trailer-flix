@@ -1,0 +1,17 @@
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
+.category div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category h2 {
+    padding-block: 32px 16px;
+    font-size: 32px;
+    font-weight: 500;
+}

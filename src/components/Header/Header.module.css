@@ -1,5 +1,4 @@
 .header {
-    --font-family: Andalé Mono, monospace;
     --primary-color: rgb(0, 0, 0);
     --secundary-color: rgb(149, 1, 1);
     --text-primary-color: rgb(149, 1, 1);
@@ -14,25 +13,26 @@
     border-bottom: 3px solid var(--secundary-color);
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    
-    .title {
-        font-size: 32px;
-        font-weight: 900;
-        font-family: var(--font-family);
-        color: var(--text-primary-color);
-    }
+    padding: 5px;
 
-    .navigation a {
-        text-decoration: none;
-        color: var(--text-secundary-color);
+}
 
-        padding-inline: 12px;
+.header span {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--text-primary-color);
+}
 
-        font-size: 24px;
-        font-weight: 500;
-        font-family: var(--font-family);
-    }
+.header a {
+    text-decoration: none;
+    color: var(--text-secundary-color);
+    align-self: center;
 
+    padding-inline: 12px;
+
+    font-size: 24px;
+    font-weight: 500;
 }
