@@ -7,6 +7,7 @@ import trailers from "../../json/trailers.json"
 import Category, { categories } from "../../components/Category";
 
 function Home() {
+
   return (
   <>
     <Header />

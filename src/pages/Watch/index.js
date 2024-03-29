@@ -21,23 +21,14 @@ function Watch() {
         <>
             <Header />
 
-            <Banner bannerImage={"assistir"} height={"260px"}>
-            </Banner>
-
-            <Container>
-                <iframe 
-                    width="860" 
-                    height="480" 
+            <Container >
+                <iframe className={style.watch}
+                    width="1020" 
+                    height="640" 
                     src={`https://www.youtube.com/embed/${trailer.id}`}
                     title="YouTube video player" 
                     frameborder="0" 
-                    allow="accelerometer; 
-                        autoplay; 
-                        clipboard-write; 
-                        encrypted-media; 
-                        gyroscope; 
-                        picture-in-picture; 
-                        web-share" 
+                    allow="" 
                     referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen></iframe>
             </Container>
