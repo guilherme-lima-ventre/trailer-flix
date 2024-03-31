@@ -1,4 +1,9 @@
 .search {
     display: flex;
     flex-direction: column;
+    min-height: 480px; 
+}
+
+.search h2 {
+    padding-top: 16px;
 }

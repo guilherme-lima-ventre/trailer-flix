@@ -1,15 +1,10 @@
 .footer {
-    --primary-color: rgb(0, 0, 0);
-    --secundary-color: rgb(149, 1, 1);
-    --text-primary-color: rgb(149, 1, 1);
-    --text-secundary-color: rgb(255, 255, 255);
-
     position: absolute;
     width: 100%;
     height: auto;
 
-    background-color: var(--primary-color);
-    border-top: 3px solid var(--secundary-color);
+    background-color: var(--black-color);
+    border-top: 3px solid var(--strong-red-color);
 
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +21,7 @@
         gap: 32px;
 
         font-family: var(--font-family);
-        color: var(--text-secundary-color);
+        color: var(--white-color);
     }
 
     .name {

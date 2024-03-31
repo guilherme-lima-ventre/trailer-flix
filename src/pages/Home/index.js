@@ -5,6 +5,7 @@ import Container from "../../components/Container";
 import Card from "../../components/Card";
 import trailers from "../../json/trailers.json"
 import Category, { categories } from "../../components/Category";
+import CardSlide from "../../components/CardSlide";
 
 function Home() {
 
@@ -21,14 +22,16 @@ function Home() {
         categories.map((category, index) => {
           return (
             <Category category={category} key={index}>
-              {trailers
-              .filter(trailer => trailer.category === category)
-              .map((trailer) => {
-                return <Card 
-                    key={trailer.id}
-                    trailerId={trailer.id} 
-                    trailerDescription={trailer.description} />
-              })}
+              <CardSlide>
+                {trailers
+                  .filter(trailer => trailer.category === category)
+                  .map((trailer) => {
+                    return <Card 
+                        key={trailer.id}
+                        trailerId={trailer.id} 
+                        trailerDescription={trailer.description} />
+                  })}
+              </CardSlide>
             </Category>
           )
         })

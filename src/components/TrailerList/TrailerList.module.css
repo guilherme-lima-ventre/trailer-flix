@@ -5,3 +5,8 @@
     gap: 8px;
     justify-content: center;
 }
+
+.trailers h2 {
+    padding-top: 0px;
+    padding-bottom: 16px;
+}

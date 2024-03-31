@@ -21,10 +21,10 @@ function Watch() {
         <>
             <Header />
 
-            <Container >
+            <Container className={style.watch}>
                 <iframe className={style.watch}
-                    width="1020" 
-                    height="640" 
+                    width="1260" 
+                    height="860" 
                     src={`https://www.youtube.com/embed/${trailer.id}`}
                     title="YouTube video player" 
                     frameborder="0" 

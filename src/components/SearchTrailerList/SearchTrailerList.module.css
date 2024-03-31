@@ -1,3 +1,21 @@
 .searchTrailerList {
-    display: flex;
+    width: auto;
+    margin: 0 auto;
+}
+
+.searchTrailerList input {
+    width: 320px;
+    padding: 12px 8px;
+    margin-block: 16px;
+    border: 0;
+
+    outline: 3px solid var(--strong-red-color);
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+.searchTrailerList h2 {
+    margin-bottom: 16px;
 }

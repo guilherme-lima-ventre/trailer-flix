@@ -12,7 +12,7 @@ function TrailerList({ trailers, emptyHeading}) {
 
     return (
         <>
-            <h2>{heading}</h2>
+            <h2 className={style.trailers}>{heading}</h2>
             <section className={style.trailers}>
                 {
                     trailers.map((trailer) =>

@@ -1,4 +1,11 @@
 * {
+  --strong-red-color: rgb(149, 1, 1);
+  --black-color: rgb(0, 0, 0);
+  --grey-color: rgb(43, 43, 43);
+  --white-color: rgb(255, 255, 255);
+  --font-family: Andalé Mono, monospace;
+
+
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -14,3 +21,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--black-color);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--black-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--strong-red-color);
+  border-radius: 20px;
+  border: 3px solid var(--black-color);
+} 

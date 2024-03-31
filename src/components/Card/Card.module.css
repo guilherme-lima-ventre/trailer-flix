@@ -3,7 +3,14 @@
 }
 
 .card img {
+    border: var(--black-color) solid 3px;
     border-radius: 8px;
-    border-color: solid 1px black;
     width: 250px;
+}
+
+.card img:hover {
+    transform: scale(1.15);
+    border: var(--white-color) solid 1px;
+    border-radius: 16px;
+    box-shadow: 0 0 5px var(--white-color);
 }

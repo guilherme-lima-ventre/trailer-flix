@@ -1,16 +1,10 @@
 .banner {
-    --font-family: Andalé Mono, monospace;
-    --primary-color: rgb(0, 0, 0);
-    --secundary-color: rgb(149, 1, 1);
-    --text-primary-color: rgb(149, 1, 1);
-    --text-secundary-color: rgb(255, 255, 255);
-
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 70px;
     
-    border-bottom: 3px solid var(--secundary-color);
+    border-bottom: 3px solid var(--strong-red-color);
 
 }

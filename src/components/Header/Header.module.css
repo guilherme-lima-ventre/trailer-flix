@@ -1,16 +1,11 @@
 .header {
-    --primary-color: rgb(0, 0, 0);
-    --secundary-color: rgb(149, 1, 1);
-    --text-primary-color: rgb(149, 1, 1);
-    --text-secundary-color: rgb(255, 255, 255);
-
     position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
 
-    background-color: var(--primary-color);
-    border-bottom: 3px solid var(--secundary-color);
+    background-color: var(--black-color);
+    border-bottom: 3px solid var(--strong-red-color);
 
     display: flex;
     flex-wrap: wrap;
@@ -18,17 +13,18 @@
     justify-content: space-around;
     padding: 5px;
 
+    z-index: 9999;
 }
 
 .header span {
     font-size: 32px;
     font-weight: 900;
-    color: var(--text-primary-color);
+    color: var(--strong-red-color);
 }
 
 .header a {
     text-decoration: none;
-    color: var(--text-secundary-color);
+    color: var(--white-color);
     align-self: center;
 
     padding-inline: 12px;
