@@ -1,0 +1,9 @@
+.favorites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites h2 {
+    padding-top: 16px;
+}

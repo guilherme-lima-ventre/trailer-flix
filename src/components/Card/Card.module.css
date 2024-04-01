@@ -1,16 +1,39 @@
 .card {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-.card img {
+.coverImage {
     border: var(--black-color) solid 3px;
     border-radius: 8px;
     width: 250px;
 }
 
-.card img:hover {
+.coverImage:hover {
     transform: scale(1.15);
     border: var(--white-color) solid 1px;
     border-radius: 16px;
     box-shadow: 0 0 5px var(--white-color);
+}
+
+.coverIcon {
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border: var(--black-color) solid 1px;
+    border-radius: 15px;
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.coverIcon:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
 }
