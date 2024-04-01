@@ -28,7 +28,7 @@ export function useFavoriteContext() {
             return setFavorite(newFavoriteList);
         }
 
-        newFavoriteList = favorite.filter((item) => item != newFavorite);
+        newFavoriteList = favorite.filter((item) => item !== newFavorite);
         return setFavorite(newFavoriteList);
     }
 
